@@ -1,0 +1,108 @@
+body {
+	display: block;
+	overflow-x: hidden;
+}
+
+/* ------ navbar ----------- */
+nav 
+{background-color: white;}
+
+.navbar-brand img
+{max-height: 50px;
+}
+
+.navbar-brand {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #683aa4
+
+}
+
+nav ul li a {
+	color: lightyellow;
+	font-size: 22px;
+	margin: auto 10px;
+}
+
+nav ul li a:hover{
+
+}
+
+section{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+section h1 {
+	text-transform: uppercase;
+	font-weight: 900;
+	color:#683aa4;
+	text-align: left;
+	margin-bottom: 20px;
+
+}
+
+section p{
+	font-weight: 300;
+	font-size: 16px;
+}
+button {
+max-width: 50%;
+border-radius: 50px !important;
+}
+
+#hero .col {
+	justify-content: center;
+	flex-direction: column;
+	display: flex;
+}
+
+#hero .img-col {
+	justify-content: flex-end;
+	margin-top: 100px;
+}
+
+#hero img {
+	max-width: 130%;
+	width: 130%;
+}
+
+#hero .card {
+	box-sizing: 11px 7px 16px #f9f9f9;
+	border: 0;
+	text-align: center;
+}
+#hero .icon {
+	width: 50%;
+	height: 50%;
+
+
+}
+
+#projects .projects {
+	margin-bottom: 50px;
+	align-items: center;
+	text-align: center;
+}
+
+#contact-us {
+	text-align: center;
+	background-color: #683aa4;
+	color: 	white	;
+}
+
+#contact-us h1 {
+	text-align: center;
+	color: whitesmoke		;
+}
+
+.card-img-top {
+	width:350px;
+	height:300px;
+	align-items: center;
+	padding: 0 auto;
+	margin:5% auto;
+	border-radius: 10%;
+
+}
